@@ -1,7 +1,13 @@
 {
   "name": "contenedor",
-  "scripts": { "start": "webpack serve --mode development" },
-  "dependencies": { "react": "^18.2.0", "react-dom": "^18.2.0" },
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.18.9",
     "@babel/preset-react": "^7.18.6",
